@@ -8,6 +8,10 @@ resource "docker_image" "nginx-latest" {
 }
 
 
-resource "docker_image" "nginx-stable" {
-  name = "nginx:stable"
+resource "docker_image" "mariadb-10" {
+  name = "mariadb:10.7.8"
+}
+
+resource "docker_image" "adminer" {
+  name = "adminer"
 }
